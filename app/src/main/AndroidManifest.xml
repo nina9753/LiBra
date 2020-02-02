@@ -18,6 +18,14 @@
         </activity>
         <activity android:name=".InfoPage1"/>
         <activity android:name=".InfoPage2"/>
+        <activity android:name=".clarifyPage"/>
+        <activity android:name=".timerFront"/>
+        <activity android:name=".frontCamera"/>
+        <activity android:name=".backCamera"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

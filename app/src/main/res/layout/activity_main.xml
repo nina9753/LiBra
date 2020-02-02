@@ -6,19 +6,19 @@
     android:id="@+id/mainPageLiBra"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2D00897B"
+    android:background="#0AFFB300"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textLiBra"
-        android:layout_width="256dp"
-        android:layout_height="144dp"
+        android:layout_width="389dp"
+        android:layout_height="205dp"
         android:gravity="center"
         android:lineSpacingExtra="8sp"
         android:text="@string/app_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#0E0D0D"
-        android:textSize="100sp"
+        android:textSize="150sp"
         android:textStyle="italic"
         app:fontFamily="cursive"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -29,18 +29,20 @@
         tools:text="@string/app_name" />
 
     <TextView
-        android:id="@+id/subHeading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/subQoute"
+        android:layout_width="298dp"
+        android:layout_height="49dp"
+        android:gravity="center"
         android:text="@string/subHead"
-        android:textColor="#0E0D0D"
+        android:textColor="#942B2424"
         android:textSize="30sp"
         app:fontFamily="cursive"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textLiBra"
-        app:layout_constraintVertical_bias="0.113"
+        app:layout_constraintVertical_bias="0.0"
         tools:text="@string/subHead" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
