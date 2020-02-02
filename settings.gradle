@@ -1,4 +1,4 @@
 include ':app'
 rootProject.name='LiBra-Project'
-include ':java'
 include ':openCVLibrary'
+include ':openCVLibrary343'
