@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.libra_project">
+
 <application
     android:allowBackup="true"
     android:icon="@mipmap/ic_launcher"
@@ -14,6 +15,16 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
+  <activity android:name=".InfoPage1"/>
+        <activity android:name=".InfoPage2"/>
+        <activity android:name=".clarifyPage"/>
+        <activity android:name=".timerFront"/>
+        <activity android:name=".frontCamera"/>
+        <activity android:name=".backCamera"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 </application>
 <!--Allow to use a camera-->
 <uses-permission android:name="android.permission.CAMERA"/>

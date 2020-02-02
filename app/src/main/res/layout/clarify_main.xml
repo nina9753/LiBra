@@ -5,35 +5,36 @@
     android:id="@+id/clarify"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4543A047"
-    android:orientation="vertical" >
+    android:background="#0AFFB300"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/clarifyDesc"
-        android:layout_width="320dp"
-        android:layout_height="271dp"
+        android:layout_width="346dp"
+        android:layout_height="301dp"
         android:gravity="center"
         android:text="@string/clarify"
         android:textColor="#0E0D0D"
         android:textSize="24sp"
         android:textStyle="normal"
-        app:fontFamily="sans-serif-condensed-light"
+        app:fontFamily="@font/alice"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.434" />
+        app:layout_constraintVertical_bias="0.448" />
 
     <TextView
         android:id="@+id/introClarify"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="268dp"
+        android:layout_height="35dp"
+        android:gravity="center"
         android:text="@string/intro"
         android:textColor="#0E0D0D"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:fontFamily="sans-serif-black"
+        app:fontFamily="serif-monospace"
         app:layout_constraintBottom_toTopOf="@+id/clarifyDesc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,13 +43,17 @@
 
     <Button
         android:id="@+id/start"
-        android:layout_width="226dp"
-        android:layout_height="48dp"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="#46424B83"
         android:text="@string/goAR"
+        android:textColor="#424B83"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/clarifyDesc"
-        app:layout_constraintVertical_bias="0.283" />
+        app:layout_constraintVertical_bias="0.197" />
 </androidx.constraintlayout.widget.ConstraintLayout>
