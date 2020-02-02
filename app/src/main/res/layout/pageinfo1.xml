@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pageinfo1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0AFFB300">
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="379dp"
+        android:layout_height="74dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/infoText"
+        android:textColor="#232D55"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="serif-monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <TextView
+        android:id="@+id/current"
+        android:layout_width="330dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="@string/current"
+        android:textColor="#424B83"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:fontFamily="@font/alice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoText"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <Button
+        android:id="@+id/enterSize"
+        android:layout_width="301dp"
+        android:layout_height="64dp"
+        android:background="#46424B83"
+        android:text="@string/enter"
+        android:textColor="#424B83"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="0.359" />
+
+    <EditText
+        android:id="@+id/curBraInput"
+        android:layout_width="342dp"
+        android:layout_height="75dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/current"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/heightText"
+        android:layout_width="140dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/height"
+        android:textColor="#424B83"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/alice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/curBraInput"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="341dp"
+        android:layout_height="73dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heightText"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

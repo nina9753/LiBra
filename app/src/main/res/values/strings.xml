@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LiBra</string>
+    <string name="subHead">Harmonize Your Bra ❤ </string>
+    <string name="infoText">Few more steps to the perfect bra!</string>
+    <string name="current"> What is your current bra size? E.g. 34C</string>
+    <string name="bSize">Band Size</string>
+    <string name="uBust">Under Bust</string>
+    <string name="cupS">Cup Size</string>
+    <string name="enter">One more to go!</string>
+    <string name="bShape">Which one matches your breast shape?</string>
+    <string name="height">Height (in cm) : </string>
+    <string name="submit">Thank You! („• ֊ •„)</string>
+    <string name="clarify">For your peace of mind, We do not keep the pictures taken but only the
+        measurements for your convenience. That being said, inorder to get the most accurate measurements
+    we advise against baggy clothes for the pictures. Thank you.</string>
+    <string name="intro">Clarifications</string>
+    <string name="goAR">Let us start!</string>
+    <string name="frontT">Front measurements in 5 seconds!</string>
+    <string name="backT">Back measurements in 5 seconds!</string>
+</resources>
