@@ -1,4 +1,2 @@
 include ':app'
-rootProject.name='LiBra-Project'
-include ':openCVLibrary'
-include ':openCVLibrary343'
+rootProject.name='mySqldatabase'
